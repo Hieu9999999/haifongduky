@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+#wrapper{
+	display: flex;flex-wrap: wrap;justify-content: center
+}
+
+.box{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	margin: 10px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+}
+.bai-1{
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+.bai-2{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	}
+.bai-3{
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.bai-4{
+
+}
+.bai-5{
+
+}
+.bai-6{
+
+}
+.bai-7{
+
+}
+.bai-8{
+	
+}
+h1 {
+    text-align: center;
+    font-family: gill sans, sans-serif;
+}
+u {
+    text-align: center;
+    font-family: gill sans, sans-serif;
+}
+a {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    text-align: left;
+}
+h2 {
+    text-align: left;
+    font-family: Segoe UI, Helvetica, Arial, sans-serif;
+    
+}
+	h3 {
+    text-align: center;
+    font-family: Segoe UI, Helvetica, Arial, sans-serif;
+    
+}
+	h4 {
+    
+    
+    font-family: Segoe UI, Helvetica, Arial, sans-serif;
+    
+}
+	h5 {
+    
+    
+    font-family: Segoe UI, Helvetica, Arial, sans-serif;
+    
+}
+span {
+    font-family: Segoe UI, Helvetica, Arial, sans-serif;
+}
+p {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+   
+}
+	
+b {
+    font-family: Segoe UI, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.menu a{
+	text-decoration: none;
+	padding: 10px 25px;
+	font-size: 17px;
+	color: #1a24ae;
+	font-weight: bold;
+	
+}
+.menu a:hover{
+	color: red;
+}
+container{
+	width: 80%;
+		margin: 0 auto;
+}
+.text-xanh{
+	color: blue;
+	
+	
+}
+.w-30{
+	width: 30%;
+	padding : 15px;
+	min-height: 200px;
+	background-color: antiquewhite;
+}
+.w-70{
+	width: 70%;
+	padding : 15px;
+	min-height: 200px;
+}
+.d-flex{
+	display: flex;
+}
+.vien-xam{
+	width: 100%;
+	min-height: 200px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+.form-control{
+	padding: 8px;
+	margin-bottom: 10px;
+	width: 100%;
+font-family: Segoe UI, Helvetica, Arial, sans-serif;
+	
+}
+.gui{
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: #3b5bf7;
+	color: whitesmoke;
+	cursor: pointer;
+	margin-right: 15px;
+	
+	
+}
+.Nhap{
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: none;
+	border: 2px solid red;
+	cursor: pointer;
+	
+	
+}
+.Nhap: hover{
+	background-color: darkred;
+	color: white;
+	
+}
+.gui:hover {
+	background-color: #0B1897;
+
+}
+
